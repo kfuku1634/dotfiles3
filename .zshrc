@@ -1,4 +1,4 @@
-source ~/dotfiles3/.zplug/init.zsh
+source ~/.zplug/init.zsh
 
 alias la='ls -a'
 bindkey -v
