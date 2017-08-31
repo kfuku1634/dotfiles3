@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/fukuda/.tmux'
+let g:netrw_dirhist_2='/Users/fukuda/program/ising5fast'
+let g:netrw_dirhist_3='/Users/fukuda/program/ising5fast/wang-landau'
+let g:netrw_dirhist_4='/Users/fukuda/.vim/plugged/vim-easymotion'

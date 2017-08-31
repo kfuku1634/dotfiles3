@@ -1,0 +1,78 @@
+set autoindent
+set autoread
+set backspace=indent,eol,start
+set backupdir=.,~/.vim/backup
+set complete-=i
+set directory=~/.vim/swap//
+set display=lastline
+set formatoptions=tcqj
+set history=10000
+set hlsearch
+set incsearch
+set langnoremap
+set laststatus=2
+set listchars=tab:>\ ,trail:-,nbsp:+
+set mouse=a
+set nocompatible
+set nrformats=bin,hex
+set sessionoptions-=options
+set smarttab
+set tabpagemax=50
+set tags=./tags;,tags
+set ttyfast
+set undodir=~/.vim/undo
+set viminfo+=!
+set wildmenu
+
+let fortran_free_source=1
+let fortran_fold=1
+au! BufRead,BufNewFile *.f90 let b:fortran_do_enddo=1
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
+set number
+syntax on
+
+nnoremap 0 o<ESC>
+nnoremap == gg=G'''
+noremap <S-h>   ^
+noremap <S-l>   $
+noremap <Esc><Esc> :noh<CR>
+
+call plug#begin('~/.vim/plugged')
+Plug 'altercation/vim-colors-solarized'
+Plug 'tomasr/molokai'
+Plug 'cohama/lexima.vim'
+Plug 'easymotion/vim-easymotion'
+call plug#end()
+
+"Automatically install missing plugins on startup
+autocmd VimEnter *
+            \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+            \|   PlugInstall --sync | q
+            \| endif
+
+let g:solarized_termcolors=256
+
+colorscheme molokai
+
+"esaymotion config
+map <Leader> <Plug>(easymotion-prefix)
+let g:EasyMotion_do_mapping = 0 " Disable default mappings
+
+" Jump to anywhere you want with minimal keystrokes, with just one key
+" binding.
+" " `s{char}{label}`
+" " nmap s <Plug>(easymotion-overwin-f)
+" " or
+" " `s{char}{char}{label}`
+" " Need one more keystroke, but on average, it may be more comfortable.
+nmap f <Plug>(easymotion-overwin-f2)
+"
+" " Turn on case insensitive feature
+let g:EasyMotion_smartcase = 1
+"
+" " JK motions: Line motions
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
