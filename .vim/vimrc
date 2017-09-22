@@ -14,7 +14,7 @@ set laststatus=2
 set listchars=tab:>\ ,trail:-,nbsp:+
 set mouse=a
 set nocompatible
-set nrformats=bin,hex
+"set nrformats=bin,hex
 set sessionoptions-=options
 set smarttab
 set tabpagemax=50
@@ -41,7 +41,7 @@ noremap <S-l>   $
 noremap <Esc><Esc> :noh<CR>
 
 call plug#begin('~/.vim/plugged')
-Plug 'altercation/vim-colors-solarized'
+Plug 'scrooloose/nerdtree'
 Plug 'tomasr/molokai'
 Plug 'cohama/lexima.vim'
 Plug 'easymotion/vim-easymotion'
