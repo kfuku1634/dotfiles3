@@ -1,3 +1,103 @@
+/Users/kouki/Library/Application Support/AddressBook
+/Users/kouki/Library/Application Support/App Store
+/Users/kouki/Library/Application Support/CallHistoryDB
+/Users/kouki/Library/Application Support/CallHistoryTransactions
+/Users/kouki/Library/Application Support/CloudDocs
+/Users/kouki/Library/Application Support/com.apple.ProtectedCloudStorage
+/Users/kouki/Library/Application Support/com.apple.sharedfilelist
+/Users/kouki/Library/Application Support/com.apple.spotlight
+/Users/kouki/Library/Application Support/com.apple.TCC
+/Users/kouki/Library/Application Support/com.evernote.Evernote
+/Users/kouki/Library/Application Support/com.evernote.EvernoteHelper
+/Users/kouki/Library/Application Support/CrashReporter
+/Users/kouki/Library/Application Support/Dock
+/Users/kouki/Library/Application Support/Google
+/Users/kouki/Library/Application Support/icdd
+/Users/kouki/Library/Application Support/iCloud
+/Users/kouki/Library/Application Support/Librarian
+/Users/kouki/Library/Application Support/NotificationCenter
+/Users/kouki/Library/Application Support/Preview
+/Users/kouki/Library/Application Support/Quick Look
+/Users/kouki/Library/Application Support/Slack
+/Users/kouki/Library/Application Support/Ubiquity
+/Users/kouki/Library/Application Support/videosubscriptionsd
+/Users/kouki/Library/Accounts
+/Users/kouki/Library/Application Scripts
+/Users/kouki/Library/Assistant
+/Users/kouki/Library/Assistants
+/Users/kouki/Library/Audio
+/Users/kouki/Library/Autosave Information
+/Users/kouki/Library/Caches
+/Users/kouki/Library/Calendars
+/Users/kouki/Library/CallServices
+/Users/kouki/Library/ColorPickers
+/Users/kouki/Library/Colors
+/Users/kouki/Library/com.apple.nsurlsessiond
+/Users/kouki/Library/Compositions
+/Users/kouki/Library/Containers
+/Users/kouki/Library/Cookies
+/Users/kouki/Library/CoreData
+/Users/kouki/Library/CoreFollowUp
+/Users/kouki/Library/Developer
+/Users/kouki/Library/Dictionaries
+/Users/kouki/Library/Favorites
+/Users/kouki/Library/FontCollections
+/Users/kouki/Library/Fonts
+/Users/kouki/Library/GameKit
+/Users/kouki/Library/Google
+/Users/kouki/Library/Group Containers
+/Users/kouki/Library/IdentityServices
+/Users/kouki/Library/iMovie
+/Users/kouki/Library/Input Methods
+/Users/kouki/Library/Internet Plug-Ins
+/Users/kouki/Library/Jupyter
+/Users/kouki/Library/Keyboard
+/Users/kouki/Library/Keyboard Layouts
+/Users/kouki/Library/KeyboardServices
+/Users/kouki/Library/Keychains
+/Users/kouki/Library/LanguageModeling
+/Users/kouki/Library/LaunchAgents
+/Users/kouki/Library/Logs
+/Users/kouki/Library/Mail
+/Users/kouki/Library/Maps
+/Users/kouki/Library/Messages
+/Users/kouki/Library/Metadata
+/Users/kouki/Library/Mobile Documents
+/Users/kouki/Library/Mozilla
+/Users/kouki/Library/Passes
+/Users/kouki/Library/PDF Services
+/Users/kouki/Library/PreferencePanes
+/Users/kouki/Library/Preferences
+/Users/kouki/Library/Printers
+/Users/kouki/Library/PubSub
+/Users/kouki/Library/Safari
+/Users/kouki/Library/Saved Application State
+/Users/kouki/Library/Screen Savers
+/Users/kouki/Library/Services
+/Users/kouki/Library/Sharing
+/Users/kouki/Library/Sounds
+/Users/kouki/Library/Spelling
+/Users/kouki/Library/Suggestions
+/Users/kouki/Library/SyncedPreferences
+/Users/kouki/Library/Thunderbird
+/Users/kouki/Library/Voices
+/Users/kouki/Library/WebKit
+/usr/local/Homebrew/Library/Homebrew
+/usr/local/Homebrew/Library/Taps
+/usr/local/Homebrew/completions
+/usr/local/Homebrew/docs
+/usr/local/Homebrew/manpages
+/usr/local/Caskroom
+/usr/local/Cellar
+/usr/local/etc
+/usr/local/Frameworks
+/usr/local/include
+/usr/local/lib
+/usr/local/opt
+/usr/local/remotedesktop
+/usr/local/sbin
+/usr/local/share
+/usr/local/var
 /Users/kouki/seaborn-data
 /Users/kouki/fukuda@192.168.100.229/pdbstyle-2.06/00
 /Users/kouki/fukuda@192.168.100.229/pdbstyle-2.06/01
@@ -2366,7 +2466,6 @@
 /Users/kouki/backup
 /Users/kouki/Desktop
 /Users/kouki/Documents
-/Users/kouki/Library
 /Users/kouki/Movies
 /Users/kouki/Music
 /Users/kouki/Pictures
@@ -2388,7 +2487,6 @@
 /usr/include
 /usr/lib
 /usr/libexec
-/usr/local
 /usr/sbin
 /usr/share
 /usr/standalone
@@ -2538,10 +2636,8 @@
 /Users/kouki/dotfiles3/.vim/plugged
 /Users/kouki/bucket
 /Users/kouki/.vim
-/Users/kouki/dotfiles3/.vim
 /Users/kouki/scop/pdbstyle-2.06/sq
 /
-/Users/kouki/scop/pdbstyle-2.06/ow
 /Users
 /Users/kouki/Downloads/About Downloads.lpdf
 /Users/kouki/scop/pdbstyle-2.06/87
@@ -2561,17 +2657,28 @@
 /Users/kouki/scop/fukuda@192.168.100.229
 /Users/kouki/fukuda@192.168.100.229
 /Users/kouki/fukuda@192.168.100.229/pdbstyle-2.06
-/Users/kouki/scop/pdbstyle-2.06
 /Users/kouki/gdrive
 /Users/kouki/Downloads/stride
 /Users/kouki/scop
 /Users/kouki/scop/fold
-/Users/kouki/Downloads
 /Users/kouki/python/tokage/introduction_to_ml_with_python/data
 /Users/kouki/python/tokage/introduction_to_ml_with_python
 /Users/kouki/python/tokage
-/Users/kouki/python
 /Users/kouki/python/ramachan
+/Users/kouki/scop/pdbstyle-2.06
+/Users/kouki/scop/pdbstyle-2.06/ow
+/Users/kouki/Downloads
+/usr/local/bin
+/usr/local
+/usr/local/Homebrew/bin
+/usr/local/Homebrew/Library
+/usr/local/Homebrew
+/Users/kouki/python/pyscript
+/Users/kouki/Library
+/Users/kouki/Library/Application Support
+/Users/kouki/Library/Application Support/pip
 /Users/kouki/dotfiles3
+/Users/kouki/dotfiles3/.vim
+/Users/kouki/python
 /Users/kouki
 /Users/kouki/dotfiles3

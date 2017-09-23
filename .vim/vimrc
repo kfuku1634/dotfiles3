@@ -24,6 +24,10 @@ set undodir=~/.vim/undo
 set viminfo+=!
 set wildmenu
 
+"for python
+autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
+autocmd FileType python setl tabstop=8
+
 let fortran_free_source=1
 let fortran_fold=1
 au! BufRead,BufNewFile *.f90 let b:fortran_do_enddo=1
@@ -40,11 +44,13 @@ noremap <S-h>   ^
 noremap <S-l>   $
 noremap <Esc><Esc> :noh<CR>
 
+
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'tomasr/molokai'
 Plug 'cohama/lexima.vim'
 Plug 'easymotion/vim-easymotion'
+Plug 'tell-k/vim-autopep8'
 call plug#end()
 
 "Automatically install missing plugins on startup
@@ -76,3 +82,6 @@ let g:EasyMotion_smartcase = 1
 " " JK motions: Line motions
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
+
+" for Autopep8 
+autocmd FileType python noremap  <S-f> :Autopep8<CR>
