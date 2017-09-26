@@ -1,3 +1,4 @@
+/Users/kouki/python/ramachan/stride
 /Users/kouki/Library/Application Support/AddressBook
 /Users/kouki/Library/Application Support/App Store
 /Users/kouki/Library/Application Support/CallHistoryDB
@@ -98,7 +99,6 @@
 /usr/local/sbin
 /usr/local/share
 /usr/local/var
-/Users/kouki/seaborn-data
 /Users/kouki/fukuda@192.168.100.229/pdbstyle-2.06/00
 /Users/kouki/fukuda@192.168.100.229/pdbstyle-2.06/01
 /Users/kouki/fukuda@192.168.100.229/pdbstyle-2.06/02
@@ -2235,7 +2235,6 @@
 /Users/kouki/scop/pdbstyle-2.06/to
 /Users/kouki/scop/pdbstyle-2.06/tp
 /Users/kouki/scop/pdbstyle-2.06/tq
-/Users/kouki/scop/pdbstyle-2.06/tr
 /Users/kouki/scop/pdbstyle-2.06/ts
 /Users/kouki/scop/pdbstyle-2.06/tt
 /Users/kouki/scop/pdbstyle-2.06/tu
@@ -2641,7 +2640,6 @@
 /Users
 /Users/kouki/Downloads/About Downloads.lpdf
 /Users/kouki/scop/pdbstyle-2.06/87
-/Users/kouki/python/ramachan/__pycache__
 /Users/kouki/scop/pdbstyle-2.06/ch
 /Users/kouki/scop/pdbstyle-2.06/cf
 /Users/kouki/scop/pdbstyle-2.06/a1
@@ -2658,27 +2656,30 @@
 /Users/kouki/fukuda@192.168.100.229
 /Users/kouki/fukuda@192.168.100.229/pdbstyle-2.06
 /Users/kouki/gdrive
-/Users/kouki/Downloads/stride
-/Users/kouki/scop
-/Users/kouki/scop/fold
-/Users/kouki/python/tokage/introduction_to_ml_with_python/data
-/Users/kouki/python/tokage/introduction_to_ml_with_python
 /Users/kouki/python/tokage
-/Users/kouki/python/ramachan
-/Users/kouki/scop/pdbstyle-2.06
 /Users/kouki/scop/pdbstyle-2.06/ow
-/Users/kouki/Downloads
 /usr/local/bin
 /usr/local
 /usr/local/Homebrew/bin
 /usr/local/Homebrew/Library
 /usr/local/Homebrew
-/Users/kouki/python/pyscript
 /Users/kouki/Library
 /Users/kouki/Library/Application Support
 /Users/kouki/Library/Application Support/pip
-/Users/kouki/dotfiles3
 /Users/kouki/dotfiles3/.vim
+/Users/kouki/python/pyscript
+/Users/kouki/python/ramachan/__pycache__
+/Users/kouki/seaborn-data
+/Users/kouki/Downloads/stride
+/Users/kouki/Downloads
+/Users/kouki/python/tokage/introduction_to_ml_with_python
+/Users/kouki/scop/pdbstyle-2.06/tr
+/Users/kouki/scop/pdbstyle-2.06
+/Users/kouki/scop
+/Users/kouki/scop/fold
+/Users/kouki/python/ramachan
+/Users/kouki/python/tokage/introduction_to_ml_with_python/data
+/Users/kouki/dotfiles3
 /Users/kouki/python
 /Users/kouki
 /Users/kouki/dotfiles3
