@@ -1,3 +1,12 @@
+/Users/kouki/hoge/family
+/Users/kouki/hoge/fold
+/Users/kouki/distribution/include
+/Users/kouki/distribution/scripts
+/Users/kouki/distribution/submodules
+/Users/kouki/distribution/test
+/Users/kouki/distribution/third_party
+/Users/kouki/Downloads/tar/include
+/Users/kouki/Downloads/tar/third_party
 /Users/fukuda/scop
 /Users/fukuda/tokage
 /Users/kouki/python/ramachan/stride
@@ -13,7 +22,6 @@
 /Users/kouki/Library/Application Support/com.evernote.Evernote
 /Users/kouki/Library/Application Support/com.evernote.EvernoteHelper
 /Users/kouki/Library/Application Support/CrashReporter
-/Users/kouki/Library/Application Support/Dock
 /Users/kouki/Library/Application Support/Google
 /Users/kouki/Library/Application Support/icdd
 /Users/kouki/Library/Application Support/iCloud
@@ -1688,7 +1696,6 @@
 /Users/kouki/scop/pdbstyle-2.06/eb
 /Users/kouki/scop/pdbstyle-2.06/ec
 /Users/kouki/scop/pdbstyle-2.06/ed
-/Users/kouki/scop/pdbstyle-2.06/ee
 /Users/kouki/scop/pdbstyle-2.06/ef
 /Users/kouki/scop/pdbstyle-2.06/eg
 /Users/kouki/scop/pdbstyle-2.06/eh
@@ -2202,7 +2209,6 @@
 /Users/kouki/scop/pdbstyle-2.06/so
 /Users/kouki/scop/pdbstyle-2.06/sp
 /Users/kouki/scop/pdbstyle-2.06/sr
-/Users/kouki/scop/pdbstyle-2.06/ss
 /Users/kouki/scop/pdbstyle-2.06/st
 /Users/kouki/scop/pdbstyle-2.06/su
 /Users/kouki/scop/pdbstyle-2.06/sv
@@ -2616,7 +2622,6 @@
 /usr/local/anaconda3/bin/qml.app
 /Users/fukuda/bucket/bucket
 /Users/fukuda/bucket
-/bin
 /Users/fukuda/vimbackup/.vim
 /Users/fukuda/vimbackup2/.vim
 /Users/fukuda/dotfiles/.vim/plugged/lexima.vim
@@ -2635,10 +2640,7 @@
 /Users/kouki/.vim/autoload
 /Users/kouki/dotfiles3/.vim/plugged
 /Users/kouki/bucket
-/Users/kouki/.vim
 /Users/kouki/scop/pdbstyle-2.06/sq
-/
-/Users
 /Users/kouki/Downloads/About Downloads.lpdf
 /Users/kouki/scop/pdbstyle-2.06/87
 /Users/kouki/scop/pdbstyle-2.06/ch
@@ -2646,9 +2648,7 @@
 /Users/kouki/scop/pdbstyle-2.06/a1
 /Users/kouki/scop/pdbstyle-2.06/ei
 /Users/kouki/scop/pdbstyle-2.06/rv
-/Users/kouki/scop/pdbstyle-2.06/dg
 /Users/kouki/scop/pdbstyle-2.06/ar
-/Users/kouki/.rasmol
 /Users/kouki/scop/pdbstyle-2.06/e9
 /Users/kouki/Downloads/xyz2dihdrl_sources
 /Users/kouki/scop/pdbstyle-2.06/a0
@@ -2659,7 +2659,6 @@
 /Users/kouki/gdrive
 /Users/kouki/python/tokage
 /Users/kouki/scop/pdbstyle-2.06/ow
-/usr/local/bin
 /usr/local
 /usr/local/Homebrew/bin
 /usr/local/Homebrew/Library
@@ -2667,22 +2666,54 @@
 /Users/kouki/Library
 /Users/kouki/Library/Application Support
 /Users/kouki/Library/Application Support/pip
-/Users/kouki/dotfiles3/.vim
 /Users/kouki/python/pyscript
 /Users/kouki/python/ramachan/__pycache__
 /Users/kouki/seaborn-data
 /Users/kouki/Downloads/stride
-/Users/kouki/Downloads
 /Users/kouki/python/tokage/introduction_to_ml_with_python
 /Users/kouki/scop/pdbstyle-2.06/tr
-/Users/kouki/scop/pdbstyle-2.06
-/Users/kouki/scop
-/Users/kouki/scop/fold
-/Users/kouki/python/ramachan
 /Users/kouki/python/tokage/introduction_to_ml_with_python/data
-/Users/kouki/python
-/Users/kouki
-/Users/kouki/dotfiles3
-/Users/fukuda/dotfiles3
 /Users/fukuda
 /Users/fukuda/dotfiles3
+/Users/kouki/python/ramachan
+/Users/kouki/Downloads/tar/src
+/Users/kouki/Downloads/tar/bin
+/Users/kouki/distribution/build
+/Users/kouki/distribution/build/bin
+/usr/local/bin
+/Users/kouki/.rasmol
+/Users/kouki/Downloads/tar
+/bin
+/
+/Users/kouki/Library/Application Support/Dock
+/Users/kouki/scop/pdbstyle-2.06/ss
+/Users/kouki/scop/fold
+/Users/kouki/python
+/Users/kouki/hoge/nishi
+/Users/kouki/tmux-MacOSX-pasteboard
+/Users/kouki/scop
+/Users/kouki/scop/family
+/Users/kouki/.bash_sessions
+/Users/kouki/hoge
+/Users/kouki/scop/pdbstyle-2.06
+/Users/kouki/dotfiles3/.tmux/plugins/tpm/tests
+/Users/kouki/dotfiles3/.tmux/plugins/tpm/lib/tmux-test
+/Users/kouki/dotfiles3/.tmux/plugins/tpm/lib
+/Users/kouki/scop/pdbstyle-2.06/ee
+/Users/kouki/dotfiles3/.tmux/plugins
+/Users/kouki/dotfiles3/.tmux/plugins/tpm
+/Users/kouki/dotfiles3/.tmux/plugins/tpm/scripts
+/Users/kouki/dotfiles3/.tmux
+/Users
+/Users/kouki/scop/pdbstyle-2.06/dg
+/Users/kouki/Downloads
+/Users/kouki/distribution/src
+/Users/kouki/distribution
+/Users/kouki/bin
+/Users/kouki/proana/nishi
+/Users/kouki/proana
+/Users/kouki/.vim
+/Users/kouki/dotfiles3
+/Users/kouki/dotfiles3/.vim
+/Users/kouki
+/Users/kouki/dotfiles3
