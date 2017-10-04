@@ -1,3 +1,4 @@
+/Users/kouki/python/ramachan/stride/doc
 /Users/kouki/hoge/family
 /Users/kouki/hoge/fold
 /Users/kouki/distribution/include
@@ -9,7 +10,6 @@
 /Users/kouki/Downloads/tar/third_party
 /Users/fukuda/scop
 /Users/fukuda/tokage
-/Users/kouki/python/ramachan/stride
 /Users/kouki/Library/Application Support/AddressBook
 /Users/kouki/Library/Application Support/App Store
 /Users/kouki/Library/Application Support/CallHistoryDB
@@ -2639,7 +2639,6 @@
 /Users/kouki/dotfiles3/.vim/plugged/molokai
 /Users/kouki/.vim/autoload
 /Users/kouki/dotfiles3/.vim/plugged
-/Users/kouki/bucket
 /Users/kouki/scop/pdbstyle-2.06/sq
 /Users/kouki/Downloads/About Downloads.lpdf
 /Users/kouki/scop/pdbstyle-2.06/87
@@ -2657,7 +2656,6 @@
 /Users/kouki/fukuda@192.168.100.229
 /Users/kouki/fukuda@192.168.100.229/pdbstyle-2.06
 /Users/kouki/gdrive
-/Users/kouki/python/tokage
 /Users/kouki/scop/pdbstyle-2.06/ow
 /usr/local
 /usr/local/Homebrew/bin
@@ -2670,12 +2668,10 @@
 /Users/kouki/python/ramachan/__pycache__
 /Users/kouki/seaborn-data
 /Users/kouki/Downloads/stride
-/Users/kouki/python/tokage/introduction_to_ml_with_python
 /Users/kouki/scop/pdbstyle-2.06/tr
 /Users/kouki/python/tokage/introduction_to_ml_with_python/data
 /Users/fukuda
 /Users/fukuda/dotfiles3
-/Users/kouki/python/ramachan
 /Users/kouki/Downloads/tar/src
 /Users/kouki/Downloads/tar/bin
 /Users/kouki/distribution/build
@@ -2688,11 +2684,8 @@
 /Users/kouki/Library/Application Support/Dock
 /Users/kouki/scop/pdbstyle-2.06/ss
 /Users/kouki/scop/fold
-/Users/kouki/python
 /Users/kouki/hoge/nishi
 /Users/kouki/tmux-MacOSX-pasteboard
-/Users/kouki/scop
-/Users/kouki/scop/family
 /Users/kouki/.bash_sessions
 /Users/kouki/hoge
 /Users/kouki/scop/pdbstyle-2.06
@@ -2703,17 +2696,26 @@
 /Users/kouki/dotfiles3/.tmux/plugins
 /Users/kouki/dotfiles3/.tmux/plugins/tpm
 /Users/kouki/dotfiles3/.tmux/plugins/tpm/scripts
-/Users/kouki/dotfiles3/.tmux
 /Users
 /Users/kouki/scop/pdbstyle-2.06/dg
 /Users/kouki/Downloads
 /Users/kouki/distribution/src
 /Users/kouki/distribution
-/Users/kouki/bin
 /Users/kouki/proana/nishi
-/Users/kouki/proana
 /Users/kouki/.vim
-/Users/kouki/dotfiles3
+/Users/kouki/python/tokage/introduction_to_ml_with_python
+/Users/kouki/python/tokage
+/Users/kouki/bucket
+/Users/kouki/python/ramachan/stride
+/Users/kouki/scop/family
+/Users/kouki/scop
+/Users/kouki/python/dihedral_to_tertiary
+/Users/kouki/python
+/Users/kouki/python/ramachan
 /Users/kouki/dotfiles3/.vim
+/Users/kouki/dotfiles3/.tmux
+/Users/kouki/dotfiles3
+/Users/kouki/proana
+/Users/kouki/bin
 /Users/kouki
 /Users/kouki/dotfiles3
