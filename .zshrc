@@ -6,6 +6,7 @@ compinit
 alias ls='ls -G1'
 alias la='ls -a'
 
+umask 022
 
 bindkey -v
 bindkey -M vicmd 'H' vi-first-non-blank

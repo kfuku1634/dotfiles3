@@ -44,6 +44,7 @@ nnoremap == gg=G'''
 noremap <S-h>   ^
 noremap <S-l>   $
 noremap <Esc><Esc> :noh<CR>
+inoremap jj <Esc>
 
 
 call plug#begin('~/.vim/plugged')
@@ -52,6 +53,7 @@ Plug 'tomasr/molokai'
 Plug 'cohama/lexima.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'tell-k/vim-autopep8'
+Plug 'nathanaelkane/vim-indent-guides'
 call plug#end()
 
 "Automatically install missing plugins on startup
@@ -61,6 +63,9 @@ autocmd VimEnter *
             \| endif
 
 let g:solarized_termcolors=256
+"for vim-indent-guides"
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_guide_size = 1
 
 colorscheme molokai
 
