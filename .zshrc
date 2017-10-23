@@ -38,6 +38,7 @@ bindkey "^N" history-beginning-search-forward-end
 export PATH="/usr/local/bin:$PATH"
 export PATH=/usr/local/anaconda3/bin:"$PATH"
 export PATH=/Users/kouki/bin:"$PATH"
+export PATH=/Users/kouki/dotfiles3/.tmux/bin:"$PATH"
 
 # 履歴ファイルの保存先
 export HISTFILE=$HOME/.zsh_history
