@@ -55,6 +55,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'tell-k/vim-autopep8'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'vim-scripts/vim-auto-save'
+Plug 'davidhalter/jedi-vim'
 call plug#end()
 
 "Automatically install missing plugins on startup

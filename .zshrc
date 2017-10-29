@@ -3,7 +3,7 @@ source ~/.zplug/init.zsh
 autoload -U compinit
 compinit
 
-alias ls='ls -G1'
+alias ls='ls -G'
 alias la='ls -a'
 
 umask 022
@@ -26,8 +26,6 @@ if ! zplug check --verbose; then
 fi
 
 zplug load --verbose
-
-
 
 autoload history-search-end
 zle -N history-beginning-search-backward-end history-search-end
