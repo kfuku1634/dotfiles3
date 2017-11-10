@@ -24,6 +24,8 @@ set undodir=~/.vim/undo
 set viminfo+=!
 set wildmenu
 set clipboard+=unnamed
+set encoding=utf-8
+set fileencodings=utf-8,euc-jp,sjis,cp932,iso-2022-jp
 
 "for python
 autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
