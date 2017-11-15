@@ -7,6 +7,7 @@ alias ls='ls -G'
 alias la='ls -a'
 
 umask 022
+ksharrays on
 
 bindkey -v
 bindkey -M vicmd 'H' vi-first-non-blank
