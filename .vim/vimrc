@@ -26,6 +26,7 @@ set wildmenu
 set clipboard+=unnamed
 set encoding=utf-8
 set fileencodings=utf-8,euc-jp,sjis,cp932,iso-2022-jp
+set fileformats=unix,dos,mac
 
 "for python
 autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
@@ -41,7 +42,7 @@ set expandtab
 set number
 syntax on
 
-nnoremap 0 o<ESC>
+nnoremap t o<ESC>
 nnoremap == gg=G'''
 noremap <S-h>   ^
 noremap <S-l>   $
@@ -58,6 +59,7 @@ Plug 'tell-k/vim-autopep8'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'vim-scripts/vim-auto-save'
 Plug 'davidhalter/jedi-vim'
+Plug 'lervag/vimtex'
 call plug#end()
 
 "Automatically install missing plugins on startup
@@ -66,7 +68,24 @@ autocmd VimEnter *
             \|   PlugInstall --sync | q
             \| endif
 
-let g:solarized_termcolors=256
+"vimtex"
+let g:vimtex_compiler_latexmk = {
+      \ 'background': 1,
+      \ 'build_dir': '',
+      \ 'continuous': 1,
+      \ 'options': [
+      \    '-pdfdvi', 
+      \    '-verbose',
+      \    '-file-line-error',
+      \    '-synctex=1',
+      \    '-interaction=nonstopmode',
+      \],
+      \}
+
+let g:vimtex_view_general_viewer
+      \ = '/Applications/Skim.app/Contents/SharedSupport/displayline'
+let g:vimtex_view_general_options = '-r @line @pdf @tex'
+
 "for vim-indent-guides"
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_guide_size = 1

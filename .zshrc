@@ -7,7 +7,6 @@ alias ls='ls -G'
 alias la='ls -a'
 
 umask 022
-ksharrays on
 
 bindkey -v
 bindkey -M vicmd 'H' vi-first-non-blank
@@ -16,7 +15,6 @@ bindkey -M vicmd 'L' vi-end-of-line
 # (1) プラグインを定義する
 zplug 'zsh-users/zsh-autosuggestions'
 zplug 'zsh-users/zsh-syntax-highlighting'
-zplug 'b4b4r07/enhancd', use:init.sh
 
 # (2) インストールする
 if ! zplug check --verbose; then
@@ -34,10 +32,21 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey "^P" history-beginning-search-backward-end
 bindkey "^N" history-beginning-search-forward-end
 
+bindkey "jj" vi-cmd-mode
+
 export PATH="/usr/local/bin:$PATH"
-export PATH=/usr/local/anaconda3/bin:"$PATH"
 export PATH=/Users/kouki/bin:"$PATH"
 export PATH=/Users/kouki/dotfiles3/.tmux/bin:"$PATH"
+export PATH="/usr/local/texlive/2017/bin/x86_64-darwin:$PATH"
+
+zmodload zsh/terminfo zsh/system
+color_stderr() {
+      while sysread std_err_color; do
+              syswrite -o 2 "${fg_bold[red]}${std_err_color}${terminfo[sgr0]}"
+                done
+            }
+            exec 2> >(color_stderr)
+
 # 履歴ファイルの保存先
 export HISTFILE=$HOME/.zsh_history
 # メモリに保存される履歴の件数
