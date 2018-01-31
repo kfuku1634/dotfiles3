@@ -55,12 +55,19 @@ Plug 'scrooloose/nerdtree'
 Plug 'tomasr/molokai'
 Plug 'cohama/lexima.vim'
 Plug 'easymotion/vim-easymotion'
-Plug 'tell-k/vim-autopep8'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'vim-scripts/vim-auto-save'
 Plug 'davidhalter/jedi-vim'
 Plug 'lervag/vimtex'
+Plug 'tell-k/vim-autopep8'
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
 call plug#end()
+
+"fzf
+
+let g:fzf_command_prefix = 'Fzf'
+nmap F :FzfFiles<CR>
 
 "Automatically install missing plugins on startup
 autocmd VimEnter *
@@ -114,5 +121,5 @@ let g:EasyMotion_smartcase = 1
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
 
-" for Autopep8 
-autocmd FileType python noremap  <S-f> :Autopep8<CR>
+"autopep8
+autocmd FileType python noremap <buffer> <G> :call Autopep8()<CR>
