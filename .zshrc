@@ -34,10 +34,11 @@ bindkey "^N" history-beginning-search-forward-end
 
 bindkey "jj" vi-cmd-mode
 
-export PATH="/usr/local/bin:$PATH"
+export PATH=/usr/local/bin:"$PATH"
+export PATH=/usr/local/sbin:"$PATH"
 export PATH=/Users/kouki/bin:"$PATH"
 export PATH=/Users/kouki/dotfiles3/.tmux/bin:"$PATH"
-export PATH="/usr/local/texlive/2017/bin/x86_64-darwin:$PATH"
+export PATH="$PATH:/usr/local/texlive/2017/bin/x86_64-darwin"
 
 zmodload zsh/terminfo zsh/system
 color_stderr() {
