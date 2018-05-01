@@ -27,6 +27,7 @@ set clipboard=unnamed
 set encoding=utf-8
 set fileencodings=utf-8,euc-jp,sjis,cp932,iso-2022-jp
 set fileformats=unix,dos,mac
+ 
 
 "for python
 autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
@@ -52,6 +53,9 @@ noremap <Esc><Esc> :noh<CR>
 inoremap <C-f> <C-x><C-f>
 inoremap @ <Esc>
 nnoremap <C-h> <C-?>
+" 折り返し時に表示行単位での移動できるようにする
+ nnoremap j gj
+ nnoremap k gk
 
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
@@ -67,10 +71,66 @@ Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/neosnippet'
+Plug 'ujihisa/neco-look'
+Plug 'rhysd/vim-grammarous'
+Plug 'thinca/vim-ref'
+Plug 'mfumi/ref-dicts-en'
+Plug 'tyru/vim-altercmd'
+Plug 'Shougo/neosnippet-snippets'
 
 call plug#end()
 
+"英語辞書を引くための設定
+" vim-ref のバッファを q で閉じられるようにする
+autocmd FileType ref-* nnoremap <buffer> <silent> q :<C-u>close<CR>
+
+" 辞書定義
+let g:ref_source_webdict_sites = {
+\   'je': {
+\     'url': 'https://eow.alc.co.jp/search?q=%s',
+\   },
+\   'ej': {
+\     'url': 'https://eow.alc.co.jp/search?q=%s',
+\   },
+\ }
+
+" デフォルトサイト
+let g:ref_source_webdict_sites.default = 'ej'
+
+" 出力に対するフィルタ
+" 最初の数行を削除
+function! g:ref_source_webdict_sites.je.filter(output)
+  return join(split(a:output, "\n")[34 :], "\n")
+endfunction
+
+function! g:ref_source_webdict_sites.ej.filter(output)
+  return join(split(a:output, "\n")[34 :], "\n")
+endfunction
+
+call altercmd#load()
+CAlterCommand ej Ref webdict ej
+CAlterCommand je Ref webdict je
+CAlterCommand ee Ref longman 
+
+
 "neocomplete
+"
+"neco-look
+if !exists('g:neocomplete#text_mode_filetypes')
+    let g:neocomplete#text_mode_filetypes = {}
+endif
+let g:neocomplete#text_mode_filetypes = {
+            \ 'rst': 1,
+            \ 'markdown': 1,
+            \ 'gitrebase': 1,
+            \ 'gitcommit': 1,
+            \ 'vcs-commit': 1,
+            \ 'hybrid': 1,
+            \ 'text': 1,
+            \ 'help': 1,
+            \ 'tex': 1,
+            \ }
+
 
 " Plugin key-mappings.
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
@@ -126,6 +186,7 @@ autocmd VimEnter *
 "vimtex"
 let g:vimtex_compiler_latexmk = {
             \ 'background': 1,
+            \ 'callback': 0,
             \ 'build_dir': '',
             \ 'continuous': 1,
             \ 'options': [
