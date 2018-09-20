@@ -1,0 +1,8 @@
+pane	0	0	:zsh	0	:-	0	:/Users/kouki/test	0	zsh	:-zsh
+pane	0	0	:zsh	0	:-	1	:/Users/kouki/drug/SimFold_blueprint	1	zsh	:-zsh
+pane	0	1	:vim	1	:*	0	:/Users/kouki/python/protein	0	vim	:vim catch_dssp_data.py
+pane	0	1	:vim	1	:*	1	:/Users/kouki/drug/db/cullpdb_pc25_res2.5_dssp	1	vim	:-zsh
+vim 1a2xB.pdb
+window	0	0	0	:-	0781,181x52,0,0[181x26,0,0,13,181x25,0,27,14]
+window	0	1	1	:*	af23,181x52,0,0[181x24,0,0,6,181x27,0,25,10]
+state	0	

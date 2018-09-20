@@ -32,21 +32,19 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey "^P" history-beginning-search-backward-end
 bindkey "^N" history-beginning-search-forward-end
 
-bindkey "jj" vi-cmd-mode
-
-export PATH=/usr/local/bin:"$PATH"
 export PATH=/usr/local/sbin:"$PATH"
 export PATH=/Users/kouki/bin:"$PATH"
 export PATH=/Users/kouki/dotfiles3/.tmux/bin:"$PATH"
 export PATH="$PATH:/usr/local/texlive/2017/bin/x86_64-darwin"
+export PATH=/usr/local/bin:"$PATH"
 
 zmodload zsh/terminfo zsh/system
 color_stderr() {
-      while sysread std_err_color; do
-              syswrite -o 2 "${fg_bold[red]}${std_err_color}${terminfo[sgr0]}"
-                done
-            }
-            exec 2> >(color_stderr)
+    while sysread std_err_color; do
+        syswrite -o 2 "${fg_bold[red]}${std_err_color}${terminfo[sgr0]}"
+    done
+}
+exec 2> >(color_stderr)
 
 # 履歴ファイルの保存先
 export HISTFILE=$HOME/.zsh_history
@@ -59,3 +57,7 @@ setopt hist_ignore_dups
 # 開始と終了を記録
 setopt EXTENDED_HISTORY
 
+if type trash-put &> /dev/null
+then
+    alias rm=trash-put
+fi

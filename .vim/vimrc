@@ -45,6 +45,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set number
+set ruler
 syntax on
 
 nnoremap y "+y
@@ -63,7 +64,7 @@ nnoremap k gk
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'tomasr/molokai'
-Plug 'cohama/lexima.vim'
+"Plug 'cohama/lexima.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'vim-scripts/vim-auto-save'
@@ -80,16 +81,16 @@ Plug 'thinca/vim-ref'
 Plug 'mfumi/ref-dicts-en'
 Plug 'tyru/vim-altercmd'
 Plug 'Shougo/neosnippet-snippets'
-Plug 'machakann/vim-highlightedundo'
+"Plug 'machakann/vim-highlightedundo'
 call plug#end()
 
 
 "vim-highlightedundo
-nmap u     <Plug>(highlightedundo-undo)
-nmap <C-r> <Plug>(highlightedundo-redo)
-nmap U     <Plug>(highlightedundo-Undo)
-nmap g-    <Plug>(highlightedundo-gminus)
-nmap g+    <Plug>(highlightedundo-gplus)
+"nmap u     <Plug>(highlightedundo-undo)
+"nmap <C-r> <Plug>(highlightedundo-redo)
+"nmap U     <Plug>(highlightedundo-Undo)
+"nmap g-    <Plug>(highlightedundo-gminus)
+"nmap g+    <Plug>(highlightedundo-gplus)
 
 "英語辞書を引くための設定
 " vim-ref のバッファを q で閉じられるようにする
