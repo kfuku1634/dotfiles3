@@ -1,0 +1,9 @@
+pane	0	0	:zsh	1	:*	0	:/Users/kouki	1	zsh	:-zsh
+pane	1	0	:zsh	0	:-	0	:/Users/kouki/opt/XVim2	1	zsh	:-zsh
+pane	1	1	:perl5.18	1	:*	0	:/Users/kouki/drug/SimFold_data/132++-_register0/res	1	perl5.18	:-zsh
+/usr/bin/perl /Users/kouki/bin/ras 132++-11539.pdb
+pane	1	1	:perl5.18	1	:*	1	:/Users/kouki/drug/SimFold_data/132++-_register0/res	0	zsh	:-zsh
+window	0	0	1	:*	b6fd,181x52,0,0,0
+window	1	0	0	:-	b6fe,181x52,0,0,1
+window	1	1	1	:*	abb3,181x52,0,0[181x26,0,0,2,181x25,0,27,3]
+state	1	

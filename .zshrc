@@ -10,7 +10,7 @@ umask 022
 
 bindkey -v
 bindkey -M vicmd 'H' vi-first-non-blank
-bindkey -M vicmd 'L' vi-end-of-line 
+bindkey -M vicmd 'L' vi-end-of-line
 
 export PDB_HOME=/Users/kouki/db
 
@@ -54,10 +54,12 @@ export HISTFILE=$HOME/.zsh_history
 export HISTSIZE=10000
 # 履歴ファイルに保存される履歴の件数
 export SAVEHIST=100000
-# 重複を記録しない
-setopt hist_ignore_dups
 # 開始と終了を記録
 setopt EXTENDED_HISTORY
+# 他のターミナルとヒストリーを共有
+setopt share_history
+# ヒストリーに重複を表示しない
+setopt histignorealldups
 
 if type trash-put &> /dev/null
 then
