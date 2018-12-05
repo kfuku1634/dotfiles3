@@ -1,0 +1,8 @@
+pane	cpp	0	:zsh	1	:*	0	:/Users/kouki/dotfiles	1	zsh	:-zsh
+pane	study	0	:nvim	1	:*	0	:/Users/kouki/opt/python/protein	1	nvim	:-zsh
+nvim Structure_Detection.py
+pane	study	0	:nvim	1	:*	1	:/Users/kouki/opt/python/protein	0	nvim	:-zsh
+nvim Collision.detection.py
+window	cpp	0	1	:*	5bb6,181x52,0,0,36
+window	study	0	1	:*	9062,181x52,0,0[181x26,0,0,114,181x25,0,27,128]
+state	study	
