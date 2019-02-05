@@ -39,6 +39,8 @@ export PATH=/Users/kouki/bin:"$PATH"
 export PATH=/Users/kouki/dotfiles3/.tmux/bin:"$PATH"
 export PATH="$PATH:/usr/local/texlive/2017/bin/x86_64-darwin"
 export PATH=/usr/local/bin:"$PATH"
+export PATH=/usr/X11R6/bin:"$PATH"
+export DISPLAY=:0.0
 
 zmodload zsh/terminfo zsh/system
 color_stderr() {

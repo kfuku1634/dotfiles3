@@ -30,7 +30,7 @@ set fileformats=unix,dos,mac
 
 if has('persistent_undo')
     set undodir=~/.vim/undo
-    set undofile                                                                                                                                   
+    set undofile
 endif
 
 "for python
@@ -123,7 +123,7 @@ endfunction
 call altercmd#load()
 CAlterCommand ej Ref webdict ej
 CAlterCommand je Ref webdict je
-CAlterCommand ee Ref longman 
+CAlterCommand ee Ref longman
 
 
 "neocomplete
@@ -203,7 +203,7 @@ let g:vimtex_compiler_latexmk = {
             \ 'build_dir': '',
             \ 'continuous': 1,
             \ 'options': [
-            \    '-pdfdvi', 
+            \    '-pdfdvi',
             \    '-verbose',
             \    '-file-line-error',
             \    '-synctex=1',
