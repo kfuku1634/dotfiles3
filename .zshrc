@@ -5,6 +5,14 @@ compinit
 
 alias ls='ls -G'
 alias la='ls -a'
+alias cp='cp -i'
+cdls ()
+{
+    \cd "$@" && ls
+}
+alias cd="cdls"
+alias ..='cd ..'
+alias mv='mv -i'
 
 umask 022
 
