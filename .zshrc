@@ -48,6 +48,7 @@ export PATH=/Users/kouki/dotfiles3/.tmux/bin:"$PATH"
 export PATH="$PATH:/usr/local/texlive/2017/bin/x86_64-darwin"
 export PATH=/usr/local/bin:"$PATH"
 export PATH=/usr/X11R6/bin:"$PATH"
+export PATH=${PATH}:${HOME}/.nodebrew/current/bin
 export DISPLAY=:0.0
 
 zmodload zsh/terminfo zsh/system
@@ -74,4 +75,8 @@ setopt histignorealldups
 if type trash-put &> /dev/null
 then
     alias rm=trash-put
+fi
+
+if [ -e /usr/local/share/zsh-completions ]; then
+    fpath=(/usr/local/share/zsh-completions $fpath)
 fi
