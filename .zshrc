@@ -15,6 +15,7 @@ alias ..='cd ..'
 alias mv='mv -i'
 
 umask 022
+setopt nonomatch
 
 bindkey -v
 bindkey -M vicmd 'H' vi-first-non-blank
