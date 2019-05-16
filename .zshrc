@@ -3,17 +3,6 @@ source ~/.zplug/init.zsh
 autoload -U compinit
 compinit
 
-alias ls='ls -G'
-alias la='ls -a'
-alias cp='cp -i'
-cdls ()
-{
-    \cd "$@" && ls
-}
-alias cd="cdls"
-alias ..='cd ..'
-alias mv='mv -i'
-
 umask 022
 setopt nonomatch
 
@@ -22,7 +11,6 @@ bindkey -M vicmd 'H' vi-first-non-blank
 bindkey -M vicmd 'L' vi-end-of-line
 
 export PDB_HOME=/Users/kouki/db
-
 # (1) プラグインを定義する
 zplug 'zsh-users/zsh-autosuggestions'
 zplug 'zsh-users/zsh-syntax-highlighting'
@@ -52,13 +40,29 @@ export PATH=/usr/X11R6/bin:"$PATH"
 export PATH=${PATH}:${HOME}/.nodebrew/current/bin
 export DISPLAY=:0.0
 
-zmodload zsh/terminfo zsh/system
-color_stderr() {
-    while sysread std_err_color; do
-        syswrite -o 2 "${fg_bold[red]}${std_err_color}${terminfo[sgr0]}"
-    done
-}
-exec 2> >(color_stderr)
+
+# 色
+#http://d.hatena.ne.jp/yk5656/20140305/1394585110
+autoload colors
+colors
+
+# プロンプト
+PROMPT="%{$fg[red]%}[%n@%m]%{$reset_color%} $ "
+RPROMPT="%{${fg[red]}%}[%~]%{${reset_color}%}"
+#PROMPT2="%{${fg[yellow]}%} %_ > %{${reset_color}%}"
+#SPROMPT="%{${fg[red]}%}correct: %R -> %r ? [n,y,a,e] %{${reset_color}%}"
+
+# ls
+export LSCOLORS=exfxcxdxbxegedabagacad
+export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=34:cd=34:su=30:sg=30:tw=30:ow=30'
+
+# 補完候補もLS_COLORSに合わせて色が付くようにする
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*:default' menu select=1
+
+# lsがカラー表示になるようエイリアスを設定
+alias ls='ls -F --color'
+
 
 # 履歴ファイルの保存先
 export HISTFILE=$HOME/.zsh_history
@@ -81,3 +85,14 @@ fi
 if [ -e /usr/local/share/zsh-completions ]; then
     fpath=(/usr/local/share/zsh-completions $fpath)
 fi
+
+alias ls='ls -G'
+alias la='ls -a'
+alias cp='cp -i'
+cdls ()
+{
+    \cd "$@" && ls
+}
+alias cd="cdls"
+alias ..='cd ..'
+alias mv='mv -i'
