@@ -38,7 +38,11 @@ export PATH="$PATH:/usr/local/texlive/2017/bin/x86_64-darwin"
 export PATH=/usr/local/bin:"$PATH"
 export PATH=/usr/X11R6/bin:"$PATH"
 export PATH=${PATH}:${HOME}/.nodebrew/current/bin
-export DISPLAY=:0.0
+export CPATH="${HOME}/cpp/ProteinData/include:${CPATH}"
+export LIBRARY_PATH="${LIBRARY_PATH}:$HOME/cpp/ProteinData/lib"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$HOME/cpp/ProteinData/lib"
+export PYTHONPATH="${HOME}/opt/python/protein"
+export DISPLAY=`find /private/tmp 2>/dev/null | grep 'xquartz'`
 
 
 # 色
@@ -96,3 +100,5 @@ cdls ()
 alias cd="cdls"
 alias ..='cd ..'
 alias mv='mv -i'
+
+alias rasp='(){ras ras ${HOME}/db/pdbstyle-2.07_unit/${1}}'
